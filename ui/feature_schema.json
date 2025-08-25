@@ -1,0 +1,65 @@
+{
+  "features": {
+    "age": {
+      "type": "numeric",
+      "label": "Age"
+    },
+    "sex": {
+  "type": "categorical",
+  "values": [0, 1],
+  "label": "Gender\n\n1 = male\n\n0 = female"
+    },
+    "cp": {
+      "type": "categorical",
+      "values": [1, 2, 3, 4],
+      "label": "Chest Pain Type\n\n1: typical angina\n\n2: atypical angina\n\n3: non-anginal pain\n\n4: asymptomatic"
+    },
+    "trestbps": {
+      "type": "numeric",
+      "label": "Resting Blood Pressure in mm Hg"
+    },
+    "chol": {
+      "type": "numeric",
+      "label": "Serum Cholestoral in mg/dl"
+    },
+    "fbs": {
+      "type": "categorical",
+      "values": [0, 1],
+      "label": "Fasting Blood Sugar > 120 mg/dl\n\n1 = true\n\n0 = false"
+    },
+    "restecg": {
+      "type": "categorical",
+      "values": [0, 1, 2],
+      "label": "Rest ECG\n\n0: normal\n\n1: having ST-T wave abnormality\n\n2: showing probable or definite left ventricular hypertrophy by Estes' criteria"
+    },
+    "thalach": {
+      "type": "numeric",
+      "label": "Maximum Heart Rate in BPM"
+    },
+    "exang": {
+      "type": "categorical",
+      "values": [0, 1],
+      "label": "Exercise Induced Angina\n\n1 = yes\n\n0 = no"
+    },
+    "oldpeak": {
+      "type": "numeric",
+      "label": "ST Depression Induced by Exercise Relative to Rest in mm"
+    },
+    "slope": {
+      "type": "categorical",
+      "values": [1, 2, 3],
+      "label": "Slope of the Peak Exercise ST Segment\n\n1: upsloping\n\n2: flat\n\n3: downsloping"
+    },
+    "ca": {
+      "type": "categorical",
+      "values": [0, 1, 2, 3],
+      "label": "Number of Major Vessels (0-3) Colored by Fluoroscopy"
+    },
+    "thal": {
+      "type": "categorical",
+      "values": [0, 3, 6, 7],
+      "label": "Thallium Stress Test\n\n0: missing\n\n3: normal\n\n6: fixed defect\n\n7: reversable defect"
+    }
+  },
+  "target": "num"
+}

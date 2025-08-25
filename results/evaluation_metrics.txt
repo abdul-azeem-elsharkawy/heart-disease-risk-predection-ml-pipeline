@@ -1,0 +1,4 @@
+LogReg: Acc=0.885, Prec=0.839, Rec=0.929, F1=0.881, AUC=0.952
+DecisionTree: Acc=0.705, Prec=0.632, Rec=0.857, F1=0.727, AUC=0.716
+RandomForest: Acc=0.885, Prec=0.839, Rec=0.929, F1=0.881, AUC=0.946
+SVM(RBF): Acc=0.836, Prec=0.800, Rec=0.857, F1=0.828, AUC=0.932
