@@ -49,7 +49,7 @@ The workflow covers all key steps from raw data preprocessing to model deploymen
 
    The final tuned model pipeline will be saved as:
    ```
-   models/final_model.pkl
+   models/final_model_(full_pipeline)).pkl
    ```
 
 4. **Run the Streamlit app**
@@ -78,12 +78,13 @@ Heart_Disease_Project/
 │  ├─ 05_unsupervised_learning.ipynb
 │  └─ 06_hyperparameter_tuning.ipynb
 ├─ models/
-│  └─ final_model.pkl
+│  └─ final_model_(full_pipeline).pkl
 ├─ ui/
 │  ├─ app.py
 │  └─ feature_schema.json
 ├─ results/
 │  └─ evaluation_metrics.txt
+│  └─ ROC Curves.png
 ├─ requirements.txt
 ├─ .gitignore
 └─ README.md
@@ -93,5 +94,4 @@ Heart_Disease_Project/
 
 ## Notes
 - The dataset itself is not included due to licensing; users must download it from the [UCI repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease).
-- Notebooks are designed to handle slight variations in column names (e.g., `num` or `target` as the label column).
-- The saved pipeline (`final_model.pkl`) already includes preprocessing, so the Streamlit app can directly handle raw user input.  
+- The saved pipeline (`final_model_(full_pipeline).pkl`) already includes preprocessing, so the Streamlit app can directly handle raw user input.  
