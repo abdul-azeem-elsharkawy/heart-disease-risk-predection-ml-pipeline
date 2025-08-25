@@ -97,7 +97,8 @@ Heart_Disease_Project/
 
 ## 🖼️ Screenshots (Streamlit UI)
 
-> ![Home window](https://iili.io/Kdoi4oJ.th.png)
+[![Kdoi4oJ.md.png](https://iili.io/Kdoi4oJ.md.png)
+[![KdoiSAF.md.png](https://iili.io/KdoiSAF.md.png)
 
 ---
 
