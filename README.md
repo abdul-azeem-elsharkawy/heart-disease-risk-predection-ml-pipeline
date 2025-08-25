@@ -97,7 +97,7 @@ Heart_Disease_Project/
 
 ## 🖼️ Screenshots (Streamlit UI)
 
-> ![Home window](https://ibb.co/FkKGMPBN)
+> ![Home window](https://i.ibb.co/WN6SwTcq/Screenshot-2025-08-25-181812.png)
 
 ---
 
