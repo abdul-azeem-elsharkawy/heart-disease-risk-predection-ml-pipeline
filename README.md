@@ -49,7 +49,7 @@ The workflow covers all key steps from raw data preprocessing to model deploymen
 
    The final tuned model pipeline will be saved as:
    ```
-   models/final_model_(full_pipeline)).pkl
+   models/final_model_(full_pipeline).pkl
    ```
 
 4. **Run the Streamlit app**
