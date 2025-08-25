@@ -79,6 +79,8 @@ Heart_Disease_Project/
 │  └─ 06_hyperparameter_tuning.ipynb
 ├─ models/
 │  └─ final_model_(full_pipeline).pkl
+│  └─ best_model.pkl
+│  └─ preprocessor.pkl
 ├─ ui/
 │  ├─ app.py
 │  └─ feature_schema.json
@@ -86,7 +88,6 @@ Heart_Disease_Project/
 │  └─ evaluation_metrics.txt
 │  └─ ROC Curves.png
 ├─ requirements.txt
-├─ .gitignore
 └─ README.md
 ```
 
