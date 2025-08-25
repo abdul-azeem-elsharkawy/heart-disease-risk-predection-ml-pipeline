@@ -28,7 +28,7 @@ The workflow covers all key steps from raw data preprocessing to model deploymen
 1. **Dataset**  
    Place the UCI Heart Disease dataset at:
    ```
-   data/heart_disease.csv
+   data/heart_disease.xls
    ```
    (The Cleveland subset is commonly used).
 
@@ -69,7 +69,7 @@ The workflow covers all key steps from raw data preprocessing to model deploymen
 ```
 Heart_Disease_Project/
 ├─ data/
-│  └─ heart_disease.csv
+│  └─ heart_disease.xls
 ├─ notebooks/
 │  ├─ 01_data_preprocessing.ipynb
 │  ├─ 02_pca_analysis.ipynb
